@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malla Interactiva Odontología PUC</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="app-header">
+        <div class="header-content">
+            <h1>Odontología PUC — Malla Interactiva</h1>
+            <p>Haz clic en un curso para marcarlo como aprobado. Los ramos cuyos requisitos cumplas se desbloquearán automáticamente.</p>
+        </div>
+        <div class="stats-container">
+            <div class="stat-card">
+                <span class="stat-value" id="total-cr">0</span>
+                <span class="stat-label">CR Aprobados</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-value" id="total-ramos">0 / 64</span>
+                <span class="stat-label">Ramos Aprobados</span>
+            </div>
+            <button id="reset-btn" class="btn-reset">Reiniciar Malla</button>
+        </div>
+    </header>
+
+    <main class="malla-container" id="malla-container">
+        <!-- Generado dinámicamente por script.js -->
+    </main>
+
+    <footer class="app-footer">
+        <p>Malla Curricular Interactiva • Odontología Pontificia Universidad Católica de Chile</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
